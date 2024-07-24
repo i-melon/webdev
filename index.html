@@ -4,54 +4,56 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <style>
-            .block {
-                width: 100%;
-                height: 100vh;
-                background-color: red;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-            }
-            * {
-                padding: 0;
-                margin: 0;
-            }
-            header{
-                width: 100%;
-                height: 300px;
-                background-color: aqua;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-            }
-            .logo{
-                width: 100px;
-                height: 100px;
-                background-color: rgb(59, 22, 107);
-            }
-            .links{
-                display: flex;
-                flex-direction: row;
-                gap: 20px;
-            }
-        </style>
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
         <div class="block">
             <header>
-                <div class="logo"></div>
+                <a>
+                    <img class="logo" src="./assets/images/logo.png">
+                </a>
                 <div class="links">
-                    <a href="">home</a>
-                    <a href="">home</a>
-                    <a href="">home</a>
+                    <a class="header-link" href="">Microsoft 365</a>
+                    <a class="header-link" href="">Office</a>
+                    <a class="header-link" href="">Windows</a>
+                    <a class="header-link" href="">Поддерждка</a>
                 </div>
                 <div class="buttons">
                     <button>log in</button>
                 </div>
             </header>
+            <div class="main">
+                <div class="slider"></div>
+                <div class="info">
+                    <div class="info-item">
+                        <img src="./assets/images/example.avif" alt="">
+                        <h1 class="info-item-title">Microsoft Edge</h1>
+                        <p class="info-item-text">Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                        <button class="info-item-btn">скачать</button>
+                    </div>
+                    <div class="info-item">
+                        <img src="./assets/images/example.avif" alt="">
+                        <h1 class="info-item-title">Erke</h1>
+                        <p class="info-item-text">Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                        <button class="info-item-btn">скачать</button>
+                    </div>
+                    <div class="info-item">
+                        <img src="./assets/images/example.avif" alt="">
+                        <h1 class="info-item-title">Microsoft Edge</h1>
+                        <p class="info-item-text">Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                        <button class="info-item-btn">скачать</button>
+                    </div>
+                    <div class="info-item">
+                        <img src="./assets/images/example.avif" alt="">
+                        <h1 class="info-item-title">Microsoft Edge</h1>
+                        <p class="info-item-text">Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                        <button class="info-item-btn">скачать</button>
+                    </div>
+                </div>
+                <div class="addition"></div>
+                <div class="dop"></div>
+            </div>
+            <footer></footer>
         </div>
     </body>
 </html>

@@ -1,0 +1,91 @@
+.block {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    align-self: stretch;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo{
+    width: 108px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.header-link {
+    text-decoration: none;
+    color: #00000088;
+    padding: 2px 16px;
+}
+.main {
+    background: orange;
+    width: 100%;
+}
+.content{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px 16px;
+    margin: 20px 16px;
+}
+.slider {
+    height: 600px;
+    background-color: blueviolet;
+}
+.info{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.addition{
+    height: 600px;
+    background-color: rgb(156, 169, 34);
+}
+.dop{
+    height: 600px;
+    background-color: rgb(169, 34, 43);
+}
+.info-item{
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 10px #00000022;
+
+}
+.info-item-title{
+    margin-top: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.info-item-text{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.info-item-btn {
+    border: none;
+    padding: 12px;
+    background-color: rgb(82, 149, 204);
+    color: white;
+    font-weight: bolder;
+    margin:24px 12px;
+    align-self: flex-start;
+}
